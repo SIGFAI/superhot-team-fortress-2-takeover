@@ -1,0 +1,7 @@
+Moments the clip must show, in order:
+1. [x] Title "TEAM FORTRESS 2 TAKEOVER" and the TF2 HUD (health, ammo, RED vs BLU scoreboard) over the SUPERHOT white lab.
+2. [x] A lineup of BLU mercenaries with class gear (Scout cap, Soldier helmet, Pyro gas mask and tank, Demoman beanie, Heavy bandolier...), frozen in SUPERHOT time.
+3. [x] Class deaths in bullet time: KABOOM (Demoman), BURNED (Pyro), MEDIC! shout, CRITICAL HIT popups; gear flies off as physics props and hangs in the slowed time; kill feed fills.
+4. [x] The Engineer's Sentry Gun builds beside the player, tracks and shoots mercs with tracers; its kills show in the feed as SENTRY.
+5. [x] Time pulses slow/fast while the bot keeps picking mercs off (DOMINATION banner on a streak).
+Notes: the title banner shares the code path of the DOMINATION banner (seen); the HUD, lineup, KABOOM/BURNED/CRITICAL pop-ups, gear props, sentry tracers and SENTRY kill-feed lines were seen in screenshots.

@@ -1,0 +1,1 @@
+Install BepInEx 5 (x64) into your SUPERHOT folder, then copy this mod's BepInEx\plugins\SigfMix folder into BepInEx\plugins. Start SUPERHOT, load an endless level and play: every enemy is now a hatted BLU mercenary.
