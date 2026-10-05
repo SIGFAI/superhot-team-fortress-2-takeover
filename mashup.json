@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "name": "Team Fortress 2 Takeover",
   "tagline": "Bring Team Fortress 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Fight hatted BLU mercenaries of all nine classes in the endless lab; every enemy is now a TF2 merc.",
+    "An Engineer's Sentry Gun is built beside you a few seconds in and fights on your side.",
+    "Chain kills for DOMINATION and KILLING SPREE; time moves only when you move."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -104,8 +109,5 @@
     "id": "superhot",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:22.862Z",
-  "notes": [
-    "Install BepInEx 5 (x64) into your SUPERHOT folder, then copy this mod's BepInEx\\plugins\\SigfMix folder into BepInEx\\plugins. Start SUPERHOT, load an endless level and play: every enemy is now a hatted BLU mercenary."
-  ]
+  "built_at": "2026-10-05T15:28:22.862Z"
 }
