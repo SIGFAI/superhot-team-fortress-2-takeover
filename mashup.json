@@ -1,0 +1,111 @@
+{
+  "id": "sigf/superhot-team-fortress-2-takeover",
+  "version": "1.0.0",
+  "name": "Team Fortress 2 Takeover",
+  "tagline": "Bring Team Fortress 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "tf2",
+      "role": "guest",
+      "label": "Team Fortress 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "superhot-team-fortress-2-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/boom.wav",
+              "sha256": "9853c1fbefc7f1a290558783a7e4eb23548d98118d01dbc6bd2239953e224fad"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/chime.wav",
+              "sha256": "06be02401f751af9a729e975c9fd025c580ea860cf8f1a2246d0fa745cdd49b5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/crit.wav",
+              "sha256": "064caa61331d6fccaeaccbba8f8c93fa306508af4b9535e3e58e29d142febd07"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/flame.wav",
+              "sha256": "063435bd166209d6031ee915911affc0a0faa9deb4afa85f51fb5c6f85187528"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/hit.wav",
+              "sha256": "abba132ed8446ab9106cd31ade4f7aa8d558651f51bd6b5457716ee0431b3299"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/laugh.wav",
+              "sha256": "867c3cab7c3c24e8b00ed83f2b83ab9c209898e6eb901da05a6b68dec71e9ae7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/medic.wav",
+              "sha256": "2f8537b6eb5df9fd7a1c16739815f6f42f695a923de8c389fa19b2edd31814bc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "e2b4c2381596a409723573be4e9641c131492df70ba7227568c7890865c42251"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "67687a0ea0eae23a862ad149cfb610d80458403ee180aa9f26e2b3e952c6fb7d"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/superhot-team-fortress-2-takeover/releases/download/v1.0.0/superhot-team-fortress-2-takeover.zip",
+          "sha256": "87f946dd7d5a1c64b1386a809a81fa4e1e7a95553beea415d8b5f81001d5e802",
+          "size": 634536
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "superhot-team-fortress-2-takeover.zip",
+      "url": "https://github.com/SIGFAI/superhot-team-fortress-2-takeover/releases/download/v1.0.0/superhot-team-fortress-2-takeover.zip",
+      "sha256": "87f946dd7d5a1c64b1386a809a81fa4e1e7a95553beea415d8b5f81001d5e802",
+      "size": 634536
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/superhot-team-fortress-2-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:22.862Z",
+  "notes": [
+    "Install BepInEx 5 (x64) into your SUPERHOT folder, then copy this mod's BepInEx\\plugins\\SigfMix folder into BepInEx\\plugins. Start SUPERHOT, load an endless level and play: every enemy is now a hatted BLU mercenary."
+  ]
+}
